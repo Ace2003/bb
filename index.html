@@ -51,7 +51,7 @@
 <body>
     <header id="header">
         <h1>
-            废话胶囊
+            Ace的垃圾桶
         </h1>
     </header>
     <main id="app">
@@ -62,7 +62,7 @@
                 <p align="right">Ace</p>
             </p>
         </aside>
-        <p class="tip">共 {{count}} 句废话</p>
+        <p class="tip">丢了 {{count}} 句话</p>
         <section class="item" v-for="item in contents" v-cloak>
             <p v-html='item.attributes.content'></p>
             <time v-bind:datetime="item.attributes.time">{{item.attributes.time}}</time>
